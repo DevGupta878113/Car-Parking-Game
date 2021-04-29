@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Multiplayer Game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+    <script>
+      //Your web app's Firebase configuration
+
+      // // Initialize Firebase
+      // firebase.initializeApp(firebaseConfig);
+
+    // Initialize Firebase
+    var firebaseConfig = {
+    apiKey: "AIzaSyAO1ykkwF5ZLsjRxrVbjAiN3lhtLOfq_84",
+    authDomain: "car-parking-2d.firebaseapp.com",
+    databaseURL: "https://car-parking-2d-default-rtdb.firebaseio.com",
+    projectId: "car-parking-2d",
+    storageBucket: "car-parking-2d.appspot.com",
+    messagingSenderId: "144995752912",
+    appId: "1:144995752912:web:f63ab5f9ef8031096177d5",
+    measurementId: "G-X5XL98CFK1"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+    
+    </script>
+
+    <script src="js/Player.js"></script>
+    <script src="js/Form.js"></script>
+    <script src="js/Game.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
